@@ -41,4 +41,4 @@ Note -  Hyperparameter tuning was performed for each model to get optimal perfor
 
 
 ### Deployment
-- Final selecte model is to be deployed to streamlit
+- Final selected model is to be deployed to streamlit

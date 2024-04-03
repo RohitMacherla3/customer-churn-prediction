@@ -1,4 +1,4 @@
-# customer-churn-prediction
+# Customer Churn-Prediction
 
 ### Telecom Customer Churn Prediction
 

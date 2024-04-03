@@ -31,6 +31,7 @@ The Dataset has columns consisting of the following information:
 - Gradient Boot
 - XGBoost
 - Kernel SVM
+- Neural Network
 - Voting Classifier (Voting based on multiple above models)
 
 Note -  Hyperparameter tuning was performed for each model to get optimal performance.

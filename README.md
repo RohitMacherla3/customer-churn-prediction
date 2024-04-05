@@ -38,4 +38,12 @@ Note -  Hyperparameter tuning was performed for Random Forest and XGBosst to get
 
 ### Model Evaluation Comparisions
 
-- Comparison Metrics table to be updated
+- Initial Comparisions
+ ![image](https://github.com/RohitMacherla3/customer-churn-prediction/assets/89356811/ca37130e-c7fe-4f7e-ae2d-7b758afac0a5)
+
+
+- After SMOTEEN (over-sampling to deal with class imbalances)
+![image](https://github.com/RohitMacherla3/customer-churn-prediction/assets/89356811/68d09ed6-5cac-4e62-8058-ac2af9c7a70b)
+
+- Best Performing Model (XGBoost)
+![image](https://github.com/RohitMacherla3/customer-churn-prediction/assets/89356811/cc2a6150-dd49-45e0-a0ec-8f2522be0979)

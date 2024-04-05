@@ -6,6 +6,8 @@ Customer churn refers to the phenomenon where customers or subscribers stop doin
 High churn rates can indicate dissatisfaction among customers or issues with the product or service offered by the company.
 Hence identifying high risk customers who are likely to leave is a cruicial step to focus on these segment of customers to try and reatain them by providing certain incentives or improving certain aspects that may lead to retention.
 
+### Deployment
+Deployed as a streamlit web app - https://telcom-customer-churn-prediction.streamlit.app/
 
 ### Objective
 - This can be achieved by building a classification model to predict if a customer is likely to leave the company based on certain user features.
@@ -31,15 +33,9 @@ The Dataset has columns consisting of the following information:
 - Gradient Boot
 - XGBoost
 - Kernel SVM
-- Neural Network
-- Voting Classifier (Voting based on multiple above models)
 
-Note -  Hyperparameter tuning was performed for each model to get optimal performance.
+Note -  Hyperparameter tuning was performed for Random Forest and XGBosst to get optimal performance.
 
 ### Model Evaluation Comparisions
 
 - Comparison Metrics table to be updated
-
-
-### Deployment
-- Final selected model is to be deployed to streamlit

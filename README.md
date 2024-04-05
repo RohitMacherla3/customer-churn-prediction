@@ -6,6 +6,12 @@ Customer churn refers to the phenomenon where customers or subscribers stop doin
 High churn rates can indicate dissatisfaction among customers or issues with the product or service offered by the company.
 Hence identifying high risk customers who are likely to leave is a cruicial step to focus on these segment of customers to try and reatain them by providing certain incentives or improving certain aspects that may lead to retention.
 
+### Deployment
+Deployed as a streamlit web app - https://telcom-customer-churn-prediction.streamlit.app/
+
+Example:
+![image](https://github.com/RohitMacherla3/customer-churn-prediction/assets/89356811/ba93cd64-be06-4a6d-9273-24bda740de71)
+
 
 ### Objective
 - This can be achieved by building a classification model to predict if a customer is likely to leave the company based on certain user features.
@@ -31,15 +37,17 @@ The Dataset has columns consisting of the following information:
 - Gradient Boot
 - XGBoost
 - Kernel SVM
-- Neural Network
-- Voting Classifier (Voting based on multiple above models)
 
-Note -  Hyperparameter tuning was performed for each model to get optimal performance.
+Note -  Hyperparameter tuning was performed for Random Forest and XGBosst to get optimal performance.
 
 ### Model Evaluation Comparisions
 
-- Comparison Metrics table to be updated
+- Initial Comparisions
+ ![image](https://github.com/RohitMacherla3/customer-churn-prediction/assets/89356811/ca37130e-c7fe-4f7e-ae2d-7b758afac0a5)
 
 
-### Deployment
-- Final selected model is to be deployed to streamlit
+- After SMOTEEN (over-sampling to deal with class imbalances)
+![image](https://github.com/RohitMacherla3/customer-churn-prediction/assets/89356811/68d09ed6-5cac-4e62-8058-ac2af9c7a70b)
+
+- Best Performing Model (XGBoost)
+![image](https://github.com/RohitMacherla3/customer-churn-prediction/assets/89356811/cc2a6150-dd49-45e0-a0ec-8f2522be0979)

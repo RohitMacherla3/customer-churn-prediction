@@ -9,6 +9,10 @@ Hence identifying high risk customers who are likely to leave is a cruicial step
 ### Deployment
 Deployed as a streamlit web app - https://telcom-customer-churn-prediction.streamlit.app/
 
+Example:
+![image](https://github.com/RohitMacherla3/customer-churn-prediction/assets/89356811/ba93cd64-be06-4a6d-9273-24bda740de71)
+
+
 ### Objective
 - This can be achieved by building a classification model to predict if a customer is likely to leave the company based on certain user features.
 - Explore different models rangiong from simple logistic regression to decision trees and neural networks to compare and identify best performing and most suitable model.

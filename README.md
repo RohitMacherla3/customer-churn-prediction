@@ -26,7 +26,12 @@ The Dataset has columns consisting of the following information:
 
 ### EDA
 
- - Plots to be updated
+1. Correlation of different feature with the predictor
+![image](https://github.com/RohitMacherla3/customer-churn-prediction/assets/89356811/0cd912f4-f174-4a84-9274-d47fc4dc992a)
+
+2. Feature Importance from XGBoost
+![image](https://github.com/RohitMacherla3/customer-churn-prediction/assets/89356811/e8c8b371-3b1b-434a-82a3-fb348549975d)
+
 
 ### Models Used
 - Logistic Regression

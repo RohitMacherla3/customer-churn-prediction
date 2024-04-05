@@ -73,5 +73,8 @@ if st.button('Predict Churn'):
         op1 = "This Customer is likely to be Continue!"
         op2 = f"Confidence level is {probability}"
 
-    st.write(op1)
-    st.write(op2)
+    centered_content_1 = f'<div style="text-align:center">{op1}</div>'
+    centered_content_2 = f'<div style="text-align:center">{op2}</div>'
+
+    st.write(centered_content_1, unsafe_allow_html=True)
+    st.write(centered_content_2, unsafe_allow_html=True)

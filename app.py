@@ -3,9 +3,19 @@ import pandas as pd
 import pickle
 import numpy as np
 
-st.title('Customer Churn Prediction')
+st.markdown(
+    """
+    <h1 style='text-align: center;'>Customer Churn Prediction</h1>
+    """,
+    unsafe_allow_html=True
+)
 
-st.write('Check all that apply to the customer')
+st.markdown(
+    """
+    <p style='text-align: center;'>Check all that apply to the customer</p>
+    """,
+    unsafe_allow_html=True
+)
 
 col1, col2, col3 = st.columns(3)
 Dependents = col1.checkbox('Dependents')

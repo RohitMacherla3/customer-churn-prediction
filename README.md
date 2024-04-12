@@ -13,7 +13,7 @@ Deployed as a streamlit web app - https://telcom-customer-churn-prediction.strea
 
 ### Objective
 - This can be achieved by building a classification model to predict if a customer is likely to leave the company based on certain user features.
-- Explore different models rangiong from simple logistic regression to decision trees and neural networks to compare and identify best performing and most suitable model.
+- Explore different models ranging from simple logistic regression to decision trees and neural networks to compare and identify best performing and most suitable model.
 
 ### Dataset
 
